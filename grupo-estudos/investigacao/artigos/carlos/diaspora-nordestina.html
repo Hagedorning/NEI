@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordeste Independente | OFICIAL</title>
+    <link rel="stylesheet" href="../../../../style/main.css">
+    <link rel="shortcut icon" href="../../imagens-nei/bandeira-nei.jpg" type="image/x-icon">
+
+    <!--footer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!--final de footer-->
+
+    <style>
+             
+    body {
+      font-family: 'arial, sans-serif, helvetica';
+      margin: 0;
+      padding: 0;
+     
+      
+    }
+
+    .my-article-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .my-article-main-content {
+      flex: 1;
+    }
+
+    .my-article {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+    }
+
+    .my-article-header {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+    }
+
+    .my-article-meta {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .my-article-meta img {
+      border-radius: 50%;
+      margin-right: 10px;
+      max-width: 40px; /* Tamanho da imagem do autor */
+    }
+
+    .my-article-related-articles {
+      flex-basis: calc(25% - 20px); /* 25% largura com um pequeno espaço entre os artigos */
+      margin-left: 20px;
+    }
+
+    .my-article-related-articles h2 {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+      margin: 0; /* Remover margem do título "Artigos Relacionados" */
+    }
+
+    .my-article-related-articles ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .my-article-related-articles li {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #eee; /* Adicionando uma borda sutil entre os artigos */
+      padding-bottom: 20px;
+    }
+
+    .my-article-related-articles img {
+      max-width: 100%;
+      border-radius: 5px; /* Adicionando borda arredondada para as imagens dos artigos */
+    }
+
+    .my-article-info {
+      margin-top: 10px;
+    }
+
+    .my-article-info h3 {
+      margin: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .my-article-container {
+        flex-direction: column;
+      }
+
+      .my-article-related-articles {
+        margin-left: 0;
+        margin-top: 20px;
+        flex-basis: 100%; /* largura total em telas menores */
+      }
+    }
+
+    .my-article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+    .my-article p {
+  margin-bottom: 10px; /* Adicione esta linha para dar margem entre os parágrafos */
+  font-size: 20px;
+}
+
+
+/*DOWNLOAD */
+
+.download-section {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #dbd834;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #1b1b1b;
+        }
+
+        /*REFERÊNCIAS DO ARTIGO NO FINAL DA PÁGINA*/
+        .references-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .references-section h2 {
+            color: #333;
+        }
+
+        .references-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .references-list li {
+            margin-bottom: 10px;
+        }
+
+        
+        
+
+    </style>
+</head>
+<body>
+
+ <!--MENU DO SITE-->
+    <header>
+        <nav id='cssmenu'>
+          <div class="logo"><a href="index.html" aria-label="Página inicial">LOGO</a></div>
+          <div id="head-mobile"></div>
+          <div class="button"></div>
+          <ul>
+            <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='../../../../index.html'>INÍCIO</a></li>
+    
+            <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='#'>NORDESTE INDEPENDENTE</a>
+              <ul>
+                <li><a href='#'>APRESENTAÇÃO</a>
+                  <ul>
+                    <li><a href='apresentacao.html'>APRESENTAÇÃO</a></li>
+                    <li><a href='contexto-historico.html'>CONTEXTO HISTÓRICO</a></li>
+                    <li><a href='contexto-recente.html'>CONTEXTO RECENTE</a></li>
+                    <li><a href='#'>DEFINIÇÃO DE NORDESTE</a></li>
+                  </ul>
+                </li>
+                <li aria-haspopup="true" aria-expanded="false"><a href='#'>INTRODUÇÃO</a>
+                  <ul>
+                    <li><a href='#'>CONCEITOS</a></li>
+                    <li><a href='#'>FUNDAMENTOS</a></li>
+                    <li><a href='#'>MOTIVAÇÕES</a></li>
+                    <li><a href='#'>OBJETIVOS</a></li>
+                    <li><a href='#'>ORGANOGRAMA</a></li>
+                    <li><a href='#'>SÍMBOLOS</a></li>
+                  </ul>
+                </li>
+                <li aria-haspopup="true" aria-expanded="false"><a href='#'>ORIENTAÇÃO</a>
+                  <ul>
+                    <li><a href='#'>ACONSELHAMENTO JURÍDICO</a></li>
+                    <li><a href='#'>ESTATUTO SOCIAL</a></li>
+                    <li><a href='#'>POSICIONAMENTOS</a></li>
+                    <li><a href='#'>QUESTIONAMENTOS</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+              <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='#'>GRUPO DE ESTUDOS</a>
+                <ul>
+                  <li><a href='#'>AVALIAÇÃO</a>
+                    <ul>
+                      <li><a href='#'>AVALIAÇÃO</a></li>
+                      <li><a href='#'>ENQUETES</a></li>
+                      <li><a href='#'>ESTUDOS</a></li>
+                      <li><a href='#'>LEVANTAMENTOS</a></li>
+                      <li><a href='#'>RESENHAS</a></li>
+                    </ul>
+                  </li>
+    
+                  <li aria-haspopup="true" aria-expanded="false"><a href='#'>HISTÓRIA</a>
+                    <ul>
+                      <li><a href='#'>HISTÓRIA</a></li>
+                      <li><a href='../../grupo-estudos/historia/icones-historicos/icones-historicos.html'>ÍCONES HISTÓRICOS</a></li>
+                      <li><a href='#'>LINHA CRONOLÓGICA</a></li>
+                      <li><a href='#'>MAPAS</a></li>
+                    </ul>
+                  </li>
+    
+                  <li aria-haspopup="true" aria-expanded="false"><a href='#'>INVESTIGAÇÃO</a>
+                    <ul>
+                      <li><a href='#'>ARTIGOS</a></li>
+                      <li><a href='#'>DOCUMENTOS</a></li>
+                      <li><a href='#'>LIVROS</a></li>
+                      <li><a href='#'>VÍDEOS</a></li>
+                    </ul>
+                  </li>
+    
+                  <li><a href='#'>MEDIDAS</a>
+    
+                    <li aria-haspopup="true" aria-expanded="false"><a href='#'>PROPOSTAS</a>
+                      <ul>
+                        <li><a href='#'>CONSTITUIÇÃO</a></li>
+                        <li><a href='#'>FORMAS DE GOVERNO</a></li>
+                        <li><a href='#'>ORGANIZAÇÃO POLÍTICA</a></li>
+                      </ul>
+                    </li>
+                </ul>
+    
+            </li>
+           
+            <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='#'>GRUPOS DE AÇÃO</a>
+              <ul>
+                <li><a href='#'>ATIVIDADES</a></li>
+                <li><a href='#'>DIRETÓRIOS</a></li>
+                <li><a href='#'>INICIATIVAS</a></li>
+              </ul>
+    
+              <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='#'>NAÇÃO NORDESTINA</a>
+                <ul>
+                  <li><a href='#'>MANIFESTO</a></li>
+                  <li><a href='#'>NORDESTINIDADE</a></li>
+                </ul>
+      
+                <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='#'>CONTEÚDOS</a>
+              <ul>
+                <li><a href='#'>ARQUIVOS</a></li>
+                <li><a href='#'>MÍDIAS</a></li>
+                <li><a href='#'>REGISTROS</a></li>
+              </ul>
+    
+              <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='#'>CONTATOS</a>
+                <ul>
+                  <li><a href='#'>ADMINISTRAÇÃO</a></li>
+                  <li><a href='#'>ASSOCIAÇÃO</a></li>
+                  <li><a href='#'>DOAÇÃO</a></li>
+                </ul>
+    
+                <li tabindex="0" aria-haspopup="true" aria-expanded="false"><a href='#'>LOJA VIRTUAL</a></li>
+           
+          </ul>
+        </nav>
+      </header> <!--FINAL DO MENU DO SITE-->
+
+      <div class="my-article-container">
+        <section class="my-article-main-content">
+          <article class="my-article">
+            <header class="my-article-header">
+              <h1>Diáspora Nordestina</h1>
+              <div class="my-article-meta">
+                <img src="andre-albuquerque-maranhao.jpg" alt="Nome do Autor">
+                <p>Por Carlos Noronha | 29/11/2023</p>
+              </div>
+            </header>
+            <p>Este é o parágrafo introdutório da matéria.</p>
+            
+            <p>Sem a devida importância por parte do poder central em relação à região nordeste, as intensas secas e a falta de industrialização fizeram com que os nordestinos migrassem para as mais diversas regiões do país. A Diáspora Nordestina é um tema de grande importância histórica e cultural. Ocorrida durante os séculos XIX e XX, foi um grande período de desafios e dificuldades inimagináveis para o povo nordestino. Sua resiliência às adversidades e, em meio aos descasos, tem fomentado uma ampla gama de estudos sobre a diáspora.</p>
+    
+            <p>Além das secas e dos problemas socioeconômicos enfrentados pelos nordestinos, a rápida industrialização desorganizada de outras regiões, em detrimento de uma política neocolonialista desfavorável ao nordeste, resultou em uma onda de migração desenfreada para as regiões centro-sul e amazônicas. Isso fez com que o Nordeste perdesse mão de obra, acarretando desinvestimento na região em favor de outras regiões que eram favorecidas.</p>
+    
+            <p>A grande seca de 1877-1879 no Nordeste, que dizimou milhares de nordestinos, e a política do café com leite de 1898-1930 tiveram grandes contribuições para o fluxo de migração nordestino. Além disso, durante o ciclo da borracha, os nordestinos tiveram um papel importantíssimo na construção de Brasília, não apenas como mão de obra barata, mas também fornecendo grandes quantidades de recursos comercializados a preços abaixo do mercado.</p>
+
+            <p>Apesar da complexidade da diáspora e da ocultação de fatos pelo governo central, a diáspora nordestina não apenas foi importante para o desenvolvimento do Brasil em meio a eventos trágicos, mas também contribuiu grandemente para uma herança cultural majestosa, incluindo música, dança, arte, culinária, literatura, festas e tradições.</p>
+
+            <p>O fenômeno da diáspora - palavra de origem grega que significa “dispersão” - designa o deslocamento incentivado ou forçado de populações de um dado território para outras áreas. Em termos gerais, pode indicar a dispersão de qualquer etnia ou nação para qualquer região.</p>
+
+            <p>As diásporas têm ocorrido de maneira relativamente frequente. Entre as mais recentes, podem ser mencionadas, a chinesa, com 40 milhões <a href="#ref1"><sup>[1]</sup></a>, a indiana, com 27 milhões <a href="#ref2"><sup>[2]</sup></a>, e a italiana, com 13 milhões <a href="#ref3"><sup>[3]</sup></a>, entre outras.</p>
+
+            <p>Cumpre ressaltar, que há uma estimativa que entre 1500 e 1900, cerca de 23 milhões de habitantes da África Subsaariana foram levados dos seus locais de origem para outros continentes <a href="#ref4"><sup>[4]</sup></a>.</p>
+
+            <p>Na América Portuguesa, a diáspora que mais chama a atenção é, sem dúvida, a nordestina. Tal evento observado com maior ênfase a partir da grande seca de 1877, quando um número significativo de migrantes segue para a Amazônia, atraídos pelo “Primeiro Ciclo da Borracha”. Sendo a República Federativa do Brasil, considerado um país periférico, caracteriza-se pela concentração das atividades tecnológicas e industriais em determinadas regiões do seu território.</p>
+
+            <p>Alguns estudiosos atribuem o êxodo nordestino tão somente a fatores climáticos ou a pobreza que assolava boa parte da população local. No entanto, a explicação transcende esses dois fatores.</p>
+
+            <p>Se o fator climático fosse um impedimento ao progresso, a Austrália, o Canadá e Israel, por exemplo seriam muito menos desenvolvidos que o Nordeste.</p>
+
+            <p>Deve-se levar em conta, em especial, o processo de neocolonialismo interno que teve lugar não apenas durante o período colonial, bem como no imperial e no republicano. Tal fato implicou na concentração dos investimentos públicos e privados notadamente na região Sudeste da Federação Brasileira.</p>
+
+            <p>Vale a pena dizer que o Nordeste antes da década de 1960 possuía uma balança comercial externa superavitária e apresentava um déficit nas relações comerciais em relação ao Centro-Sul.</p>
+
+            <p>A política econômica da Federação Brasileira subsidiava a indústria em detrimento do setor agroexportador e existiam taxas diferenciadas de câmbio para importação de bens de consumo e de bens de capital.</p>
+
+            <p>Este era o modo encontrado para se reservarem as divisas externas da República Brasileira para que se aparelhasse a indústria e criasse um mercado interno para as empresas do Centro-Sul. Sendo assim, o governo central ao manter as taxas de câmbio supervalorizadas impunha uma política que alcançava negativamente o Nordeste, uma vez que os ganhos com os produtos agrícolas eram atingidos pelos confiscos cambiais.</p>
+
+            <p>Essa situação levou à transferência de renda não apenas do setor agrícola para o industrial, mas também do Nordeste para o Centro-Sul.</p>
+
+            <p>Não tendo condições de recorrer às manufaturas importadas, o Nordeste tornou-se um mercado cativo do Centro-Sul, transferindo nada menos que 40% de suas divisas <a href="#ref5"><sup>[5]</sup></a>. Segundo o Banco do Nordeste, a balança comercial nordestina, no período 2010-1017 <a href="#ref6"><sup>[6]</sup></a>, era deficitária o que comprova cabalmente que a política econômica levada a efeito pelo governo central desde décadas anteriores foi extremamente nociva ao Nordeste.</p>
+
+            <p>A diáspora nordestina, tem seu apogeu entre as décadas de 1950 e 1970, quando milhões de nordestinos migraram notadamente para São Paulo e Rio de Janeiro. Esse período corresponde a implementação dessa política econômica totalmente deletéria ao Nordeste.</p>
+
+            <p>Em 1872 <a href="#ref7"><sup>[7]</sup></a>, os nordestinos representavam cerca de 46% da população brasileira, ao passo que em 2022, constituíam apenas 27% desse total. Isso claramente revela o descaso em que o poder central trata o Nordeste.</p>
+
+            <p>Para se ter uma ideia, entre 1940 e 1980, cerca de 7,9 milhões de nordestinos haviam deixado o seu território. Em 1991, 7,5 milhões residiam fora do Nordeste (aproximadamente 22% da população regional) <a href="#ref8"><sup>[8]</sup></a>. Em 2010, esse número havia subido para 9,5 milhões (correspondente a 28% da população da região) <a href="#ref9"><sup>[9]</sup></a>.</p>
+
+            <p>Tais dados revelam que em um período de 70 anos, tivemos quase 25 milhões de nordestinos que migraram para outros pontos da América Portuguesa. Tal informação demonstra que o total de pessoas que saiu da África Subsaariana em cinco séculos foi suplantado em somente sete décadas, pela diáspora nordestina.</p>
+
+    <!-- Adicionar mais parágrafos conforme necessário -->
+
+    <!--Referências do artigo-->
+    <section id="references" class="references-section">
+        <h2>Referências</h2>
+        <ul class="references-list">
+            <li id="ref1">[1]<strong>FLEISCHER, Friederike,</strong> <em>A diáspora chinesa: uma aproximação à migração chinesa na Colômbia,</em> rev.estud.soc. [online], 2012, n.42, pp.71-79. ISSN 0123-885X.</li>
+            <li id="ref2">[2] <strong>OLIVEIRA, Mirian Santos Ribeiro de. Segrillo, Angelo & Pennaforte, Charles (eds.),</strong> <em>A Ásia no Século XXI: olhares brasileiros,</em> Rio de Janeiro: Cenegri, 2011, p. 147-206, 2011.</li>
+            <li id="ref3">[3] <strong>FAVERO, Luigi; Tassello, Graziano (1978),</strong><em>Cent'anni di emigrazione italiana (1876-1976),</em> Roma: Cser, 1978.</li>
+            <li id="ref4">[4] <strong>LARSON, Pier M. (1999),</strong>  <em>«Reconsidering Trauma, Identity, and the African Diaspora: Enslavement and Historical Memory in Nineteenth-Century Highland Madagascar» (PDF). William and Mary Quarterly. 56 (2): 335–362. JSTOR 2674122. doi:10.2307/2674122,</em> Editora 000000, Consultado em 31 de janeiro de 2012. Arquivado do original (PDF) em 27 de setembro de 2011.</li>
+            <li id="ref5">[5]<strong>VIEIRA, Rosa Maria,</strong> <em>Celso Furtado e o Nordeste no Pré-64: Reforma e Ideologia</em>, Projeto História : Revista Do Programa De Estudos Pós-Graduados De História, 29(01). Recuperado de https://revistas.pucsp.br/index.php/revph/article/view/9946, 2012.</li>
+            <li id="ref6">[6] <strong>FREIRE, Laura Lúcia Ramos & BARROSO, Liliane Cordeiro,</strong><em>Evolução e perfil da balança comercial do Nordeste, ETENE/BNB</em>, Banco do Nordeste do Brasil, Dez-2018.</li>
+            <li id="ref7">[7] <strong>Censo Demográfico de 1872,</strong> <em>DGE</em>, DGE, 1872.</li>
+            <li id="ref8">[8]<strong>Censo Demográfico 1991,</strong> <em>IBGE,</em> 1991.</li>
+            <li id="ref9">[9] C<strong>enso Demográfico 2010,</strong> <em>IBGE,</em> 2010.</li>
+            <!-- Adicione mais itens conforme necessário -->
+        </ul>
+    </section>
+
+
+            <!--DOWNLOAD DE ARTIGOS/LIVROS-->
+            <section class="download-section">
+                <h2>Baixe o Artigo em PDF</h2>
+                <p>Clique no botão abaixo para baixar o artigo em formato PDF.</p>
+                <a href="caminho-para-seu-arquivo.pdf" download="NomeDoArquivo.pdf" class="download-button">Baixar PDF</a>
+            </section>
+           
+            
+          </article>
+        </section>
+    
+        <aside class="my-article-related-articles">
+          <h2>Artigos Relacionados</h2>
+          <ul>
+            <li>
+              <img src="andre-albuquerque-maranhao.jpg" alt="Artigo 1">
+              <div class="my-article-info">
+                <h3><a href="#">Artigo 1</a></h3>
+                <p>Breve descrição do Artigo 1.</p>
+              </div>
+            </li>
+            <li>
+              <img src="andre-albuquerque-maranhao.jpg" alt="Artigo 2">
+              <div class="my-article-info">
+                <h3><a href="#">Artigo 2</a></h3>
+                <p>Breve descrição do Artigo 2.</p>
+              </div>
+            </li>
+            <li>
+              <img src="article3.jpg" alt="Artigo 3">
+              <div class="my-article-info">
+                <h3><a href="#">Artigo 3</a></h3>
+                <p>Breve descrição do Artigo 3.</p>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
+      <script src="../../../../js/main.js"></script>  
+</body>
+</html>
